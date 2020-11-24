@@ -1,7 +1,11 @@
 #!/usr/bin/python
 
+import json
+import os
+import subprocess
+import sys
+import threading
 from optparse import OptionParser
-import os, sys, subprocess, json, re, threading
 
 global VERBOSE
 VERBOSE = False

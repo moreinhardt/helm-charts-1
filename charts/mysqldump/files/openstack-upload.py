@@ -88,7 +88,7 @@ def upload(source, destination, ttl_days):
     except KeyError as e:
         raise Exception(
             "These environment variables must be set with login info:\n"
-            + "  OS_USER_DOMAIN_NAME, OS_USERNAME, OS_PASSWORD, OS_PROJECT_DOMAIN_NAME, OS_PROJECT_NAME, OS_AUTH_URL",
+            "  OS_USER_DOMAIN_NAME, OS_USERNAME, OS_PASSWORD, OS_PROJECT_DOMAIN_NAME, OS_PROJECT_NAME, OS_AUTH_URL",
             e,
         )
 
